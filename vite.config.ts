@@ -10,7 +10,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-    base: "/ease-ui/",
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
